@@ -132,7 +132,9 @@ if options.verbosity:
 		print "   {}".format(file)
 
 
+
 print "\n\n{} chpsgrids tar files available on {} server".format(len(gridList),location)
+print "Files will be move to here: {}".format(chpsImportDir)
 print "{}/index.php?verbose=true\n".format(backupLocation)
 print "\nThe most recent {} day(s) will be used (Starting at:{})".format(options.d,startDate.date())
 
